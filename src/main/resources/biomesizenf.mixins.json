@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.sculas.biomesizenf.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "biomesizenf.refmap.json",
+  "mixins": ["RegistryDataLoaderMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
